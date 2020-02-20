@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:scal="http://schemas.android.com/apk/res-auto"
+    tools:ignore="missingPrefix"
+    android:id="@+id/top_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/bg"
+    android:clickable="true"
+    >
+
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        scal:scale_base_width="400"
+        scal:scale_base_height="200">
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        scal:scale_base_width="200"
+        scal:scale_base_height="300">
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/id_textLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            scal:scale_width="170"
+            scal:scale_top="55">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/id_textField"
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:fontFamily="@font/nanumsquareroundb"
+                scal:scale_height="50"
+                scal:scale_width="355"
+                scal:scale_textsize="15">
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/pw_textLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            scal:scale_width="170"
+            scal:scale_height="55"
+            scal:scale_top="100">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pw_textField"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nanumsquareroundb"
+                android:hint="PW"
+                scal:scale_height="50"
+                scal:scale_width="355"
+                scal:scale_textsize="15">
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/round_button_green"
+            android:text="LogIn !"
+            android:fontFamily="@font/nanumbarungothicbold"
+            android:textColor="@color/White"
+            scal:scale_height="30"
+            scal:scale_width="170"
+            scal:scale_textsize="12"
+            scal:scale_top="170">
+        </Button>
+
+        <TextView
+            android:id="@+id/create_account_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Create Account"
+            android:textColor="@android:color/white"
+            android:clickable="true"
+            android:background="@drawable/click_effect2"
+            android:fontFamily="@font/nanumbarungothicbold"
+            scal:scale_height="40"
+            scal:scale_width="90"
+            scal:scale_textsize="11"
+            scal:scale_top="215">
+        </TextView>
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+
+
+</LinearLayout>

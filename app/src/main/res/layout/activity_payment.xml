@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:scal="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:ignore="missingPrefix"
+    android:background="@drawable/bg4">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:fontFamily="@font/nanumsquareroundb"
+        android:layout_marginTop="120dp">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="470dp"
+        scal:scale_base_height="200"
+        scal:scale_base_width="400">
+
+        <TextView
+            android:id="@+id/payment_price_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:gravity="end"
+            android:text="결제 금액: 0원"
+            android:fontFamily="@font/nanumsquareroundb"
+            scal:scale_top="5"
+            scal:scale_height="50"
+            scal:scale_textsize="30"
+            scal:scale_width="390" />
+
+        <Button
+            android:id="@+id/payment_check_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/round_button_green"
+            android:text="확인"
+            android:fontFamily="@font/nanumsquareroundb"
+            android:textColor="@color/White"
+            scal:scale_height="55"
+            scal:scale_width="400"
+            scal:scale_textsize="30"
+            scal:scale_top="50"
+            />
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+</RelativeLayout>

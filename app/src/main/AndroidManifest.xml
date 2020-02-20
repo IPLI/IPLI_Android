@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.iplmarket">
+
+    <!-- 네트워크 권한 부여-->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+        android:largeHeap="true">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".List_interface">
+            <intent-filter>
+                <category android:name="android.intent.category.ACTION_VIEW" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Payment">
+            <intent-filter>
+                <category android:name="android.intent.category.ACTION_VIEW" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".create_account">
+        </activity>
+
+        <activity android:name=".Popup"
+            android:theme="@style/popupTheme" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Popup_paycheck"
+            android:theme="@style/popupTheme" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Popup_socket_connect"
+            android:theme="@style/popupTheme" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Popup_badrequest"
+            android:theme="@style/popupTheme" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Popup_out_cart"
+            android:theme="@style/popupTheme" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Popup_item_error"
+            android:theme="@style/popupTheme" android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".PlanActivity"
+            android:theme="@style/AppTheme1">
+            <intent-filter>
+                <category android:name="android.intent.category.ACTION_VIEW" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".EventActivity"
+            android:theme="@style/AppTheme1">
+            <intent-filter>
+                <category android:name="android.intent.category.ACTION_VIEW" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".GridActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme1">
+            <intent-filter>
+                <category android:name="android.intent.category.ACTION_VIEW" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ImageActivity"
+            android:label="Selected Image"
+            android:theme="@style/popupTheme" android:screenOrientation="portrait">
+        </activity>
+
+    </application>
+
+</manifest>

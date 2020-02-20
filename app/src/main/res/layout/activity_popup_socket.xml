@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:scal="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="missingPrefix">
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="300dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center_vertical"
+        scal:scale_base_width="300"
+        scal:scale_base_height="110">
+
+        <TextView
+            android:id="@+id/title_text_popup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="쇼핑 시작"
+            android:gravity="center"
+            android:fontFamily="@font/nanumsquareroundb"
+            android:background="@color/PastelGreen"
+            android:textColor="@color/White"
+            scal:scale_width="300"
+            scal:scale_height="30"
+            scal:scale_textsize="20">
+        </TextView>
+
+        <EditText
+            android:id="@+id/socket_connect_text"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/nanumsquareroundb"
+            android:hint="카트에 적힌 번호를 입력하세요"
+            scal:scale_width="300"
+            scal:scale_height="50"
+            scal:scale_textsize="20">
+        </EditText>
+        <TextView
+        android:id="@+id/socket_yes_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:fontFamily="@font/nanumsquareroundb"
+        android:clickable="true"
+        android:background="@drawable/click_effect2"
+        android:text="확인"
+        scal:scale_width="150"
+        scal:scale_height="30"
+        scal:scale_top="30"
+        scal:scale_textsize="20">
+        </TextView>
+
+        <TextView
+            android:id="@+id/socket_no_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:gravity="center"
+            android:clickable="true"
+            android:fontFamily="@font/nanumsquareroundb"
+            android:background="@drawable/click_effect2"
+            android:text="취소"
+            scal:scale_width="150"
+            scal:scale_height="30"
+            scal:scale_top="30"
+            scal:scale_textsize="20">
+        </TextView>
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+</LinearLayout>

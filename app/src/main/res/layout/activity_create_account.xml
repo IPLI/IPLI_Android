@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:scal="http://schemas.android.com/apk/res-auto"
+    tools:ignore="missingPrefix"
+    android:id="@+id/create_account_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:onClick="linearOnClick"
+    android:background="@drawable/bg2"
+    >
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        scal:scale_base_width="400"
+        scal:scale_base_height="400">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/id_textLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            scal:scale_width="300"
+            scal:scale_top="230">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/id_textField"
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="@font/nanumsquareroundb"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textSize="17sp"
+                scal:scale_height="50"
+                scal:scale_width="355">
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/pw_textLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            scal:passwordToggleEnabled="true"
+            scal:scale_width="300"
+            scal:scale_top="285">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pw_textField"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:hint="PW (숫자, 특수문자 포함)"
+                android:fontFamily="@font/nanumsquareroundb"
+                android:textSize="17sp"
+                scal:scale_height="50"
+                scal:scale_width="355"
+                scal:scale_textsize="15">
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/pw_textLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            scal:passwordToggleEnabled="true"
+            scal:scale_width="300"
+            scal:scale_top="340">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pw_textField2"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:hint="PW check"
+                android:fontFamily="@font/nanumsquareroundb"
+                android:textSize="17sp"
+                scal:scale_height="50"
+                scal:scale_width="355"
+                scal:scale_textsize="15">
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/name_textLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            scal:scale_width="300"
+            scal:scale_top="175">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/name_textField"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:fontFamily="@font/nanumsquareroundb"
+                android:textSize="17sp"
+                scal:scale_height="50"
+                scal:scale_width="355"
+                scal:scale_textsize="15">
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        scal:scale_base_width="400"
+        scal:scale_base_height="80">
+
+        <Button
+            android:id="@+id/create_account_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/round_button_green"
+            android:text="Create Account !"
+            android:fontFamily="@font/nanumsquareroundb"
+            android:textColor="@color/White"
+            scal:scale_height="50"
+            scal:scale_width="355"
+            scal:scale_textsize="20"
+            scal:scale_top="20">
+        </Button>
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+
+
+</LinearLayout>
