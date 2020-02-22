@@ -17,7 +17,7 @@ APM 설치 관련 포스팅 url :
 APM MySQL 한글 인코딩 관련 포스팅 url :
 [https://ohjinjin.github.io/database/mysql-encoding/](https://ohjinjin.github.io/database/mysql-encoding/)<br/><br/>
 DB 다이어그램 : 
-<img src="https://github.com/IPLI/IPLI_Android/db.TIF" alt=""><br/><br/>
+<img src="https://github.com/IPLI/IPLI_Android/db.tif" alt=""><br/><br/>
 
 4. DB migrations<br/>
 DB 다이어그램대로 데이터베이스 및 테이블 설계를 해주세요.<br/>
@@ -26,6 +26,11 @@ DB 다이어그램대로 데이터베이스 및 테이블 설계를 해주세요
 
 상품 이미지는 모두 함께 이 원격 레포지토리에 올려뒀습니다.<br/>
 butter.png, coca.png, confu.png, daw.png, shin.png가 그것들입니다.<br/><br/>
+
+DB에 데이터 추가하실 때에는 아래처럼 넣어주시면됩니다.<br/>
+<img src="https://github.com/IPLI/IPLI_Android/DBinfo.PNG" alt=""><br/><br/>
+
+로그인 계정은 어플 실행 후 생성해서 사용하면 됩니다.<br/> 
 
 php도 함께 올려드렸는데 htdocs 폴더안에 이미지와 php를 모두 넣어주시면됩니다.<br/>
 
