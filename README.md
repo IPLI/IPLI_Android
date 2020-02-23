@@ -41,3 +41,8 @@ DB에 데이터 추가하실 때에는 아래처럼 넣어주시면됩니다.<br
 php도 함께 올려드렸는데 htdocs 폴더안에 이미지와 php를 모두 넣어주시면됩니다.<br/>
 
 안드로이드 어플리케이션 자바코드에서 서버컴퓨터의 ip로 고쳐주시면 정상 실행됩니다.<br/><br/><br/>
+
+
+Usage
+------
+시연 영상 : [https://youtu.be/Cik78MP8W3E](https://youtu.be/Cik78MP8W3E)
