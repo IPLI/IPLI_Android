@@ -46,3 +46,6 @@ php도 함께 올려드렸는데 htdocs 폴더안에 이미지와 php를 모두 
 Usage
 ------
 시연 영상 : [https://youtu.be/Cik78MP8W3E](https://youtu.be/Cik78MP8W3E)
+<br/>
+관련 포스팅 : [https://ohjinjin.github.io/projects/IPLI/](https://ohjinjin.github.io/projects/IPLI/)
+<br/>
